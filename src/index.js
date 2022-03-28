@@ -2,7 +2,6 @@ import './style.css';
 import {create, Goal, currentGoals} from './createGoal';
 import {layout} from './layout';
 import {current} from './current';
-import {remove} from "./remove";
 
 
 layout();

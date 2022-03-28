@@ -71,7 +71,6 @@ removeButton.forEach(
             item = item.parentElement;
             remove(item.parentElement);
             current();
-            console.log(currentGoals);
         })  
     }
 )

@@ -1,10 +1,6 @@
 export const currentGoals = [];
 
 export const Goal = (nameNew, typeNew, dueDate, desc) => {
-  // nameNew;
-  // typeNew;
-  // dueDate;
-  // desc;
   let fin = false;
     return {nameNew, typeNew, dueDate, desc, fin};
   }
@@ -35,11 +31,3 @@ let date = day + 'th';
 // currentGoals.push(one);
 // const two = Goal('two', 'Daily', 'by 11:59 PM', 'two');
 // currentGoals.push(two);
-
-//  export const DailyGoal = (name) => {
-//     // simply create a person and pull out the sayName function with destructuring assignment syntax!
-//     const {sayName} = ObjGoal(name);
-//     name;
-//     const doSomethingNerdy = () => console.log('nerd stuff');
-//     return {name, sayName, doSomethingNerdy};
-//   } 

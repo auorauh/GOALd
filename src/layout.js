@@ -1,6 +1,6 @@
 import Icon from './logo.png';
 
-export const layout = (currentGoals) => {
+export const layout = () => {
     //Header and Logo
     const header = document.querySelector('header');
     const logo = new Image();
