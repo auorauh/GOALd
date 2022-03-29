@@ -65,12 +65,12 @@ export const current = () => {
 
     //remove button logic
     const removeButton = document.querySelectorAll('.remove');
-removeButton.forEach(
-    function (item) {
-        item.addEventListener('click', () => {
-            item = item.parentElement;
-            remove(item.parentElement);
-            current();
+        removeButton.forEach(
+            function (item) {
+                item.addEventListener('click', () => {
+                item = item.parentElement;
+                remove(item.parentElement);
+                current();
         })  
     }
 )

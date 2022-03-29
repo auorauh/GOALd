@@ -1,5 +1,6 @@
 export const currentGoals = [];
 
+
 export const Goal = (nameNew, typeNew, dueDate, desc) => {
   let fin = false;
     return {nameNew, typeNew, dueDate, desc, fin};
@@ -17,6 +18,7 @@ export const Goal = (nameNew, typeNew, dueDate, desc) => {
     let desc = document.getElementById('desc').value;
     let justadded = Goal(nameNew, typeNew, dueDate, desc);
     currentGoals.push(justadded);
+    window.localStorage.setItem(nameNew, JSON.stringify(justadded));
 }
 export const finished = () => {
   

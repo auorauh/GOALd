@@ -9,6 +9,7 @@ export const remove = (item) => {
             cell.innerHTML = ""
             if (index > -1) {
                 currentGoals.splice(index, 1);
+                window.localStorage.removeItem(goal.nameNew);
               }
               let arr = document.querySelectorAll('.goalItem')
             arr.forEach(element => {
