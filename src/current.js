@@ -53,6 +53,7 @@ export const current = () => {
                 goal.fin = true
                 cell.classList.add('fin');
                 goalTitle.innerText = goalTitle.innerText+ ' ✓';
+                localStorage.setItem(goal.nameNew, JSON.stringify(goal))
             })
             goalContent.appendChild(complete);
             
